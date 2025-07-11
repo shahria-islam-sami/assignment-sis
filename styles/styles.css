@@ -7,6 +7,9 @@
 
 .title-prim-color{
     color: #4E47FF;
+      font-size: 36px;
+      
+
 }
 
 .raleway-normal {
@@ -26,6 +29,7 @@ nav{
     justify-content: space-between;
     padding: 20px 40px;
     margin: 0 150px;
+
 }
 .nav-title{
     font-size: 44px;
@@ -40,13 +44,19 @@ nav{
       font-weight: bold;
       font-size: 16px;
 }
-/* body  */
 
-/* main content */
+
+/* header main content */
+header{
+  background-image: url(../images/hero.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
 .main-content{
     text-align: center;
     margin: 100px 200px;
-    /* background-image: url(projects/assignment-sis/images/hero.png); */
+    /* background-image: url(../images/hero.png); */
     background-size: cover;
 }
 .main-heading{
@@ -63,4 +73,13 @@ nav{
       font-weight: bold;
       font-size: 16px;
       margin: 20px;
+       cursor: pointer;
+}
+
+/* body  */
+body{
+      /* background-image: url(../images/hero.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat; */
 }
