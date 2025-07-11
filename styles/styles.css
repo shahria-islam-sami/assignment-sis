@@ -43,7 +43,15 @@ nav{
       border-radius: 6px;
       font-weight: bold;
       font-size: 16px;
+      transition: all 0.3s ease;
+
 }
+.btn-signup:hover {
+  background-color: #cd4b13;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.2);
+}
+
 
 
 /* header main content */
@@ -72,9 +80,19 @@ background-repeat: no-repeat;
       border-radius: 10px;
       font-weight: bold;
       font-size: 16px;
-      margin: 20px;
-       cursor: pointer;
+      margin: 0px 0px 100px 0px;
+      cursor: pointer;
+      transition: all 0.3s ease;
 }
+.btn-stf:hover {
+  background-color: #cd4b13;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.2);
+}
+
+
+
+
 
 /* body  */
 body{
@@ -101,9 +119,17 @@ background-repeat: no-repeat; */
       font-weight: bold;
       font-size: 16px;
       margin: 10px 0px 0px 0px;
-       cursor: pointer;
+      cursor: pointer;
+      transition: all 0.3s ease; 
 
 }
+.preview-btn:hover {
+  background-color: #cd4b13;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.2);
+}
+
+
 .prev-img img{
     max-width: 100%;
     border-radius: 20px;
