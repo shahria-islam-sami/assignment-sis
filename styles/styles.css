@@ -9,6 +9,16 @@
     color: #4E47FF;
 }
 
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btn-font{
+
+}
+
 /* nav styles */
 nav{
     display: flex;
@@ -30,10 +40,14 @@ nav{
       font-weight: bold;
       font-size: 16px;
 }
+/* body  */
+
 /* main content */
 .main-content{
     text-align: center;
     margin: 100px 200px;
+    /* background-image: url(projects/assignment-sis/images/hero.png); */
+    background-size: cover;
 }
 .main-heading{
     font-size: 65px;
@@ -45,7 +59,8 @@ nav{
       background-color: #4E47FF;
       color: white;
       border: none;
-      border-radius: 6px;
+      border-radius: 10px;
       font-weight: bold;
       font-size: 16px;
+      margin: 20px;
 }
