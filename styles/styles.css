@@ -151,3 +151,18 @@ background-repeat: no-repeat; */
   max-width: 500px;
   margin-bottom: 20px;
 }
+
+
+/* stat box review */
+.review-section{
+  text-align: center;
+  background-color: #4E47FF;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+   padding: 40px 30px;
+}
+.stat-review{
+  display: flex;
+  justify-content: center;
+}
