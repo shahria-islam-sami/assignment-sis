@@ -156,13 +156,40 @@ background-repeat: no-repeat; */
 /* stat box review */
 .review-section{
   text-align: center;
-  background-color: #4E47FF;
+  background-color: #6d68ff47;
   border-radius: 20px;
-  max-width: 800px;
+  max-width: 1140px;
   width: 100%;
    padding: 40px 30px;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 200px 10px 150px;
+}
+.review-section h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #252432;
 }
 .stat-review{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 5px 80px 5px 80px;
+}
+.stat-num{
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  display: block;
+  margin bottom: 3px ;
+
+}
+.stat-review p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #0000006d;
+}
+.stat-para{
+  text-align: center;
 }
