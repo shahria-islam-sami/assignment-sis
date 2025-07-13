@@ -270,3 +270,33 @@ margin bottom: 4px;
     color: #B3B3B3;
 
   }
+
+  .focus-section{
+    background-color: #f9fafe;
+    text-align: center;
+    padding: 80px 20px;
+    justify-content: center;
+  }
+.focus-btn{
+  padding: 10px 20px;
+      background-color: #4E47FF;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 10px 0px 0px 0px;
+      cursor: pointer;
+      transition: all 0.3s ease; 
+
+}
+.focus-btn:hover {
+  background-color: #cd4b13;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.2);
+}
+
+
+
+
+
