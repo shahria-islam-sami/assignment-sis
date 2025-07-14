@@ -396,18 +396,30 @@ margin: 50px 100px;
   background-color: #FFFFFF;
 }
 .footer-logo{
-  font-size: 100px;
-  font-weight: bold;
+  font-size: 200px;
+  font-weight: bolder;
   margin-bottom: 20px;
+}
+.footer-container p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
 }
 .footer-nav{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  color: #8987A1;
+  font-size: 16px;
+  font-weight: 400;
 }
 .footer-nav a{
   text-decoration: none;
-
+  color: #8987A1;
+  font-weight: 400;
+  }
+  .footer-nav a:hover {
+    color: #4f46e5;
   }
 
